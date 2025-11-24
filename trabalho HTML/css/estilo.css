@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body {
+
+    max-width: 1360px;
+}
+#logo {
+    width: 100px;
+}
+h1{
+    margin-top: 0;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main{
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    height: auto;
+}
+#conteudo {
+    display:flex;
+    padding: 10px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+footer a{
+    color: darkgrey;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 5px;
+}
+footer img{
+    height: 30px;
+}
+
+
+@media (max-width: 768px){
+    header, footer{ 
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #conteudo{
+        flex-direction: column;
+    }
+    .tamanhoconteudo{
+        height: 50%; 
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+@media (max-width: 600px) {
+    main{
+        width: 100%;
+    }
+    #conteudo h1{
+        text-align:center;
+    }
+#conteudo p{
+        text-align: justify;
+}
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incio</title>
+    <link rel="shortcut icon" type="image/jpg" href="imagens/favicon.ico"/>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        .tamanhoconteudo{
+            height: 250px;
+        }
+        #conteudo h1{
+            text-align:left ;
+        }
+        #conteudo p{
+            text-align: left;
+        }
+        .direita{
+            padding: 10px;
+        }
+        .direita p{
+            font-size: 20px;
+        }
+@media (max-width: 768px){
+    header, footer{ 
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #conteudo{
+        flex-direction: column;
+        
+    }
+    .tamanhoconteudo{
+        height: 50%; 
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+    #conteudo h1{
+            text-align:left;
+        }
+    #conteudo p{
+            text-align: justify;
+    }
+    @media (max-width: 600px) {
+        main{
+            width: 100%;
+        }
+        #conteudo h1{
+            text-align:center;
+        }
+    #conteudo p{
+            text-align: justify;
+    }
+}
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="inicio.html"><img src="imagens/RP-logo.png" alt="Academia RP Evolution Logo" id="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Bem Vindo á Academia RP Evolution</h1>
+        <section >
+            <div id="conteudo">
+                <img class="tamanhoconteudo" src="imagens/foto3.jpeg" alt="">
+                <div class="direita">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci enim dicta repellendus doloribus repellat nulla dolor commodi laboriosam, delectus sint ipsa esse, quibusdam rerum fugiat. Alias ut dignissimos ratione!</p>
+                </div>
+            </div>
+            <div id="conteudo">
+                <img class="tamanhoconteudo" src="imagens/musculo.jpg" alt="">
+                <div class="direita">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci enim dicta repellendus doloribus repellat nulla dolor commodi laboriosam, delectus sint ipsa esse, quibusdam rerum fugiat. Alias ut dignissimos ratione!</p>
+                </div>
+            </div>
+            <div id="conteudo">
+                <img class="tamanhoconteudo" src="imagens/foto1.jpeg" alt="">
+                <div class="direita">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci enim dicta repellendus doloribus repellat nulla dolor commodi laboriosam, delectus sint ipsa esse, quibusdam rerum fugiat. Alias ut dignissimos ratione!</p>
+                </div>
+            </div>
+
+            </div>
+            <div id="conteudo">
+                <img class="tamanhoconteudo" src="imagens/foto2.jpeg" alt="">
+                <div class="direita">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci enim dicta repellendus doloribus repellat nulla dolor commodi laboriosam, delectus sint ipsa esse, quibusdam rerum fugiat. Alias ut dignissimos ratione!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Academia RP Evolution. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/rpevolution?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="imagens/insta.jpeg" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/rpevolution" target="_blank">
+                <img src="imagens/face.png" alt="Facebook">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
